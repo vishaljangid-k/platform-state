@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-demo-1
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-e47a63532537ae880"
+  instanceType: "t3.micro"
+  publicIp: "172.31.32.15"
+  region: "us-east-1"
