@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-orders-test-dev-small
+  namespace: default
+  labels:
+    team: orders
+    managed-by: kratix
+data:
+  instanceId: "i-7b24309e89d6aa2ee"
+  instanceType: "t3.micro"
+  publicIp: "172.31.32.13"
+  region: "us-east-1"
