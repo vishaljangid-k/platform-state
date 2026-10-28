@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-test
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-f02b909ba301327c4"
+  instanceType: "t3.small"
+  publicIp: "172.31.32.14"
+  region: "us-east-1"
