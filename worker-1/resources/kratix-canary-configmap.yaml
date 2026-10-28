@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  canary: this confirms your infrastructure is reading from Kratix state stores
+kind: ConfigMap
+metadata:
+  name: kratix-info
+  namespace: kratix-worker-system
