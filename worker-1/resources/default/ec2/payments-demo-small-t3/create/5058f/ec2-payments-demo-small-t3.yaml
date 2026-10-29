@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-payments-demo-small-t3
+  namespace: default
+  labels:
+    team: payments
+    managed-by: kratix
+data:
+  instanceId: "i-ff2dde5c55ba5f12f"
+  instanceType: "t3.micro"
+  publicIp: "172.31.32.19"
+  region: "us-east-1"
