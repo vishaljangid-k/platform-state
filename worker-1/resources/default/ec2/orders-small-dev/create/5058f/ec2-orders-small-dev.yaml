@@ -7,7 +7,7 @@ metadata:
     team: orders
     managed-by: kratix
 data:
-  instanceId: "i-6b8e52dd70aece7bb"
+  instanceId: "i-405e34f970fb50798"
   instanceType: "t3.micro"
   publicIp: "172.31.32.12"
   region: "us-east-1"
