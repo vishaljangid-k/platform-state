@@ -7,7 +7,7 @@ metadata:
     team: payments
     managed-by: kratix
 data:
-  instanceId: "i-64694872ed9efe453"
+  instanceId: "i-00e2af4a5e803d7de"
   instanceType: "t3.small"
-  publicIp: "172.31.32.20"
+  publicIp: "172.31.32.14"
   region: "us-east-1"
