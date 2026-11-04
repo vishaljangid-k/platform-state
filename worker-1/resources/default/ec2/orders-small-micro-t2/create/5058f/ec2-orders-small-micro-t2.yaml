@@ -8,6 +8,6 @@ metadata:
     managed-by: kratix
 data:
   instanceId: "i-430ec885fd08c93a3"
-  instanceType: "t3.micro"
+  instanceType: "t3.small"
   publicIp: "172.31.32.27"
   region: "us-east-1"
