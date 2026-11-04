@@ -7,6 +7,6 @@ metadata:
     team: platform
     managed-by: kratix
 data:
-  bucketName: "platform-dem-ec2-v2-data-ff8adb"
-  bucketArn: "arn:aws:s3:::platform-dem-ec2-v2-data-ff8adb"
+  bucketName: "platform-dem-ec2-v2-data-30243d"
+  bucketArn: "arn:aws:s3:::platform-dem-ec2-v2-data-30243d"
   region: "us-east-1"
