@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-payments-medium-ec2
+  namespace: default
+  labels:
+    team: payments
+    managed-by: kratix
+data:
+  instanceId: "i-406609ed7939927e8"
+  instanceType: "t3.small"
+  publicIp: "172.31.32.31"
+  region: "us-east-1"
