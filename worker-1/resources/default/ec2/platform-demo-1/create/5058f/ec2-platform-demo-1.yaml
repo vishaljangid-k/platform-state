@@ -7,7 +7,7 @@ metadata:
     team: platform
     managed-by: kratix
 data:
-  instanceId: "i-0fb42f9f803bdcf69"
+  instanceId: "i-d600891a937585819"
   instanceType: "t3.micro"
-  publicIp: "172.31.32.11"
+  publicIp: "172.31.32.15"
   region: "us-east-1"
