@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-flow-1
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-52185d5e784370e03"
+  instanceType: "t3.micro"
+  publicIp: "10.240.0.12"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-flow-1-alb-fbb98ed705724d05.elb.localhost.floci.io"
+  dnsName: "platform-flow-1.platform.demo"
+  location: "aws-singapore"
+  region: "ap-southeast-1"
