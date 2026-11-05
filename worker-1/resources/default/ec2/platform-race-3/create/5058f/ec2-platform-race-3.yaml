@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-race-3
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-2ad3bd0142f3a4ffc"
+  instanceType: "t3.micro"
+  publicIp: "172.31.32.55"
+  loadBalancerType: "none"
+  loadBalancerDns: ""
+  dnsName: "platform-race-3.platform.demo"
+  region: "us-east-1"
