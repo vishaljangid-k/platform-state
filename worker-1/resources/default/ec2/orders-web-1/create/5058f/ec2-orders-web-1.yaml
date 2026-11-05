@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-orders-web-1
+  namespace: default
+  labels:
+    team: orders
+    managed-by: kratix
+data:
+  instanceId: "i-c1792d9f93375e2f0"
+  instanceType: "t3.micro"
+  publicIp: "10.241.0.12"
+  loadBalancerType: "none"
+  loadBalancerDns: ""
+  dnsName: "orders-web-1.platform.demo"
+  location: "chiangmai-dc"
+  region: "us-west-2"
