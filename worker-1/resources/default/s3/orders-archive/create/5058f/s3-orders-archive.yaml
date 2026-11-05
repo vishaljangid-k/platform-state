@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s3-orders-archive
+  namespace: default
+  labels:
+    team: orders
+    managed-by: kratix
+data:
+  bucketName: "orders-archive-7eb8d3"
+  bucketArn: "arn:aws:s3:::orders-archive-7eb8d3"
+  region: "us-east-1"
