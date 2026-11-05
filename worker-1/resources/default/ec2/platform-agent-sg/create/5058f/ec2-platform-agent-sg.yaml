@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-agent-sg
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-975b7d76dc9c66f90"
+  instanceType: "t3.micro"
+  publicIp: "10.240.0.14"
+  loadBalancerType: "none"
+  loadBalancerDns: ""
+  dnsName: "platform-agent-sg.platform.demo"
+  location: "aws-singapore"
+  region: "ap-southeast-1"
