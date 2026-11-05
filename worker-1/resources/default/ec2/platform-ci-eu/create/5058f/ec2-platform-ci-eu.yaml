@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-ci-eu
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-ea22fc039d25144fd"
+  instanceType: "t3.micro"
+  publicIp: "10.242.0.10"
+  loadBalancerType: "none"
+  loadBalancerDns: ""
+  dnsName: "platform-ci-eu.platform.demo"
+  location: "aws-ireland"
+  region: "eu-west-1"
