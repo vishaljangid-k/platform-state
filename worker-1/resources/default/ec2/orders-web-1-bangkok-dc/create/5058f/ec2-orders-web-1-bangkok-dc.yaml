@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-orders-web-1-bangkok-dc
+  namespace: default
+  labels:
+    team: orders
+    managed-by: kratix
+data:
+  instanceId: "i-9a4afdc0587171928"
+  instanceType: "t3.small"
+  publicIp: "172.31.32.68"
+  loadBalancerType: "none"
+  loadBalancerDns: ""
+  dnsName: "orders-web-1-bangkok-dc.platform.demo"
+  location: "bangkok-dc"
+  region: "us-east-1"
