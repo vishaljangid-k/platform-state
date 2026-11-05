@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-test-demo-ec2
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "platform-test-demo-ec2"
+  instanceType: "t3.micro"
+  publicIp: "-"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-test-demo-ec2-alb-fd831a44908141bd.elb.localhost.floci.io"
+  dnsName: "platform-test-demo-ec2.platform.demo"
+  location: "bangkok-dc"
+  region: "us-east-1"
