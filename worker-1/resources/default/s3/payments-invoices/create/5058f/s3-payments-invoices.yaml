@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s3-payments-invoices
+  namespace: default
+  labels:
+    team: payments
+    managed-by: kratix
+data:
+  bucketName: "payments-invoices-d9722e"
+  bucketArn: "arn:aws:s3:::payments-invoices-d9722e"
+  region: "us-east-1"
