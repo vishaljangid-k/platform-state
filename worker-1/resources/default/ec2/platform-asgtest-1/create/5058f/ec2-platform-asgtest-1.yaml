@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-asgtest-1
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "platform-asgtest-1"
+  instanceType: "t3.micro"
+  publicIp: "-"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-asgtest-1-alb-bd4de5fcba4d4c32.elb.localhost.floci.io"
+  dnsName: "platform-asgtest-1.platform.demo"
+  region: "us-east-1"
