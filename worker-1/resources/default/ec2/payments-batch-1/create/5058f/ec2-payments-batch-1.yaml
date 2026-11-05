@@ -8,7 +8,7 @@ metadata:
     managed-by: kratix
 data:
   instanceId: "i-c10fba89cad7795a9"
-  instanceType: "t3.micro"
+  instanceType: "t3.small"
   publicIp: "10.241.0.11"
   loadBalancerType: "none"
   loadBalancerDns: ""
