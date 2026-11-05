@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-payments-small-bucket
+  namespace: default
+  labels:
+    team: payments
+    managed-by: kratix
+data:
+  instanceId: "i-e8ab75e01142011d3"
+  instanceType: "t3.micro"
+  publicIp: "172.31.32.62"
+  loadBalancerType: "alb"
+  loadBalancerDns: "payments-small-bucket-alb-385c887ecf5d435f.elb.localhost.floci.io"
+  dnsName: "payments-small-bucket.platform.demo"
+  location: "bangkok-dc"
+  region: "us-east-1"
