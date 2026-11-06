@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-huge-2
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "platform-huge-2"
+  instanceType: "t3.micro"
+  publicIp: "-"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-huge-2-alb-3644e7c98ca24dd4.elb.localhost.floci.io"
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
