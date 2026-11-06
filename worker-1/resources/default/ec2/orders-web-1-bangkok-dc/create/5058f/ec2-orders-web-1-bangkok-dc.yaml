@@ -7,11 +7,11 @@ metadata:
     team: orders
     managed-by: kratix
 data:
-  instanceId: "i-9a4afdc0587171928"
+  instanceId: "i-e816376eb2d7a524d"
   instanceType: "t3.small"
-  publicIp: "172.31.32.68"
+  publicIp: "10.240.32.10"
   loadBalancerType: "none"
   loadBalancerDns: ""
-  dnsName: "orders-web-1-bangkok-dc.platform.demo"
+  dnsName: ""
   location: "bangkok-dc"
   region: "us-east-1"
