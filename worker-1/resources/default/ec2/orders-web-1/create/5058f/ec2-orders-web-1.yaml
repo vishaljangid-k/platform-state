@@ -7,11 +7,11 @@ metadata:
     team: orders
     managed-by: kratix
 data:
-  instanceId: "i-c1792d9f93375e2f0"
+  instanceId: "i-456d38c6520da4900"
   instanceType: "t3.small"
-  publicIp: "10.241.0.12"
+  publicIp: "172.31.0.10"
   loadBalancerType: "none"
   loadBalancerDns: ""
-  dnsName: "orders-web-1.platform.demo"
+  dnsName: ""
   location: "chiangmai-dc"
   region: "us-west-2"
