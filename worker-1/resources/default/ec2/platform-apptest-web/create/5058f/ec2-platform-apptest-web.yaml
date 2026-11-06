@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-apptest-web
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-c150e8b2b886cb3ed"
+  instanceType: "t3.micro"
+  publicIp: "10.240.32.20"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-apptest-web-alb-bc12e68e62254ff5.elb.localhost.floci.io"
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
