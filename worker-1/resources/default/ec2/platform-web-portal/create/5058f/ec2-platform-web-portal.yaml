@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-web-portal
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "platform-web-portal"
+  instanceType: "t3.micro"
+  publicIp: "-"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-web-portal-alb-df65f7ad24eb4633.elb.localhost.floci.io"
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
