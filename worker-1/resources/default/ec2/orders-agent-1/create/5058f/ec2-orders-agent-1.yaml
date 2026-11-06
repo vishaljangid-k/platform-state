@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-orders-agent-1
+  namespace: default
+  labels:
+    team: orders
+    managed-by: kratix
+data:
+  instanceId: "i-5eccda3d4ed0929b4"
+  instanceType: "t3.micro"
+  publicIp: "10.240.32.16"
+  loadBalancerType: "none"
+  loadBalancerDns: ""
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
