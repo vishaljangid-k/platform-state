@@ -7,11 +7,11 @@ metadata:
     team: platform
     managed-by: kratix
 data:
-  instanceId: "i-da52b109a185fda34"
+  instanceId: "i-2aa8bdf1f9ca7188b"
   instanceType: "t3.micro"
-  publicIp: "10.240.0.13"
+  publicIp: "10.241.0.10"
   loadBalancerType: "alb"
-  loadBalancerDns: "platform-tools-sg-alb-9dafbf7111094a2b.elb.localhost.floci.io"
-  dnsName: "platform-tools-sg.platform.demo"
+  loadBalancerDns: "platform-tools-sg-alb-563514d339fd4ec7.elb.localhost.floci.io"
+  dnsName: ""
   location: "aws-singapore"
   region: "ap-southeast-1"
