@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-shop-web
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-93d7311123ed48214"
+  instanceType: "t3.micro"
+  publicIp: "10.240.32.21"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-shop-web-alb-8631c442fc964b45.elb.localhost.floci.io"
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
