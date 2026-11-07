@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s3-platform-day2-data
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  bucketName: "platform-day2-data-5b5c39"
+  bucketArn: "arn:aws:s3:::platform-day2-data-5b5c39"
+  region: "us-east-1"
