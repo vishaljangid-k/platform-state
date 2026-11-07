@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-audit2-web
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-2087f33720f0b6d99"
+  instanceType: "t3.micro"
+  publicIp: "172.31.32.17"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-audit2-web-alb-89d20e0f048f4d90.elb.localhost.floci.io"
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
