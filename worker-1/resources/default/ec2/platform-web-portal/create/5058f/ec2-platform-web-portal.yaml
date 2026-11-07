@@ -11,7 +11,7 @@ data:
   instanceType: "t3.micro"
   publicIp: "-"
   loadBalancerType: "alb"
-  loadBalancerDns: "platform-web-portal-alb-df65f7ad24eb4633.elb.localhost.floci.io"
+  loadBalancerDns: "platform-web-portal-alb-cf4d27beb0694c07.elb.localhost.floci.io"
   dnsName: ""
   location: "bangkok-dc"
   region: "us-east-1"
