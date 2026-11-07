@@ -7,9 +7,9 @@ metadata:
     team: platform
     managed-by: kratix
 data:
-  instanceId: "i-60a9ee792874ed69f"
+  instanceId: "i-b80e81379ff9341f4"
   instanceType: "t3.micro"
-  publicIp: "10.241.0.11"
+  publicIp: "10.242.0.11"
   loadBalancerType: "none"
   loadBalancerDns: ""
   dnsName: ""
