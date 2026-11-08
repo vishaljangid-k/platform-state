@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s3-platform-myshop-data
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  bucketName: "platform-myshop-data-2da5f9"
+  bucketArn: "arn:aws:s3:::platform-myshop-data-2da5f9"
+  region: "us-east-1"
