@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-payments-test-web
+  namespace: default
+  labels:
+    team: payments
+    managed-by: kratix
+data:
+  instanceId: "i-c367a888e77c9dbbe"
+  instanceType: "t3.micro"
+  publicIp: "172.31.32.29"
+  loadBalancerType: "none"
+  loadBalancerDns: ""
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
