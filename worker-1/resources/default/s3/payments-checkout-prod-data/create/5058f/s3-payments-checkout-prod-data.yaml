@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: s3-payments-checkout-prod-data
+  namespace: default
+  labels:
+    team: payments
+    managed-by: kratix
+data:
+  bucketName: "payments-checkout-prod-data-e96c22"
+  bucketArn: "arn:aws:s3:::payments-checkout-prod-data-e96c22"
+  region: "us-east-1"
