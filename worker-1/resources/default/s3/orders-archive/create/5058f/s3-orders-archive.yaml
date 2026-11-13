@@ -7,6 +7,6 @@ metadata:
     team: orders
     managed-by: kratix
 data:
-  bucketName: "orders-archive-465ea5"
-  bucketArn: "arn:aws:s3:::orders-archive-465ea5"
+  bucketName: "orders-archive-7b7b2c"
+  bucketArn: "arn:aws:s3:::orders-archive-7b7b2c"
   region: "us-east-1"
