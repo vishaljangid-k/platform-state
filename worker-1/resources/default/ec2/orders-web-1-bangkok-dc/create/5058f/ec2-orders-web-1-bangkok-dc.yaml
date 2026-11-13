@@ -7,9 +7,9 @@ metadata:
     team: orders
     managed-by: kratix
 data:
-  instanceId: "i-b4c9a07fdd2bfd9e1"
+  instanceId: "i-b0b83ec30fc722fef"
   instanceType: "t3.small"
-  publicIp: "172.31.32.13"
+  publicIp: "172.31.32.12"
   loadBalancerType: "none"
   loadBalancerDns: ""
   dnsName: ""
