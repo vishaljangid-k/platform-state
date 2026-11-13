@@ -7,6 +7,6 @@ metadata:
     team: payments
     managed-by: kratix
 data:
-  bucketName: "payments-report-data-46ec30"
-  bucketArn: "arn:aws:s3:::payments-report-data-46ec30"
+  bucketName: "payments-report-data-fdd915"
+  bucketArn: "arn:aws:s3:::payments-report-data-fdd915"
   region: "us-east-1"
