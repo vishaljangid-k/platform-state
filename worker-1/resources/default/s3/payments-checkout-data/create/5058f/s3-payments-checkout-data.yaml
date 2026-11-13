@@ -7,6 +7,6 @@ metadata:
     team: payments
     managed-by: kratix
 data:
-  bucketName: "payments-checkout-data-d45184"
-  bucketArn: "arn:aws:s3:::payments-checkout-data-d45184"
+  bucketName: "payments-checkout-data-802736"
+  bucketArn: "arn:aws:s3:::payments-checkout-data-802736"
   region: "us-east-1"
