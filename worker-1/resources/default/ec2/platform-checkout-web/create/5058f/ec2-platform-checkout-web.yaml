@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-checkout-web
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-2e6f591d6abc63216"
+  instanceType: "t3.micro"
+  publicIp: "172.31.32.16"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-checkout-web-alb-45b72c7943ed4d38.elb.localhost.floci.io"
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
