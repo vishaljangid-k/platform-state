@@ -7,6 +7,6 @@ metadata:
     team: payments
     managed-by: kratix
 data:
-  bucketName: "payments-invoices-52eb42"
-  bucketArn: "arn:aws:s3:::payments-invoices-52eb42"
+  bucketName: "payments-invoices-c91f2b"
+  bucketArn: "arn:aws:s3:::payments-invoices-c91f2b"
   region: "us-east-1"
