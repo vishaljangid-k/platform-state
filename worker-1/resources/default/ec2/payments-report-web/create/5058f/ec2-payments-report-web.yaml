@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-payments-report-web
+  namespace: default
+  labels:
+    team: payments
+    managed-by: kratix
+data:
+  instanceId: "i-9c4fcf2a8a41c5424"
+  instanceType: "t3.micro"
+  publicIp: "10.240.32.16"
+  loadBalancerType: "alb"
+  loadBalancerDns: "payments-report-web-alb-de8d4e8f79d144d4.elb.localhost.floci.io"
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
