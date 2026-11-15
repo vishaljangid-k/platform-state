@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-tools-sg
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-5ac29d96af3bd61a0"
+  instanceType: "t3.micro"
+  publicIp: "10.241.0.10"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-tools-sg-alb-882bdc3ba4a540c4.elb.localhost.floci.io"
+  dnsName: ""
+  location: "aws-singapore"
+  region: "ap-southeast-1"
