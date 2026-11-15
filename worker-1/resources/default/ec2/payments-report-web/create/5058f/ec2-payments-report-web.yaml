@@ -7,11 +7,11 @@ metadata:
     team: payments
     managed-by: kratix
 data:
-  instanceId: "i-9c4fcf2a8a41c5424"
+  instanceId: "i-7c3568fa6d2d320e8"
   instanceType: "t3.micro"
-  publicIp: "10.240.32.16"
+  publicIp: "172.31.32.12"
   loadBalancerType: "alb"
-  loadBalancerDns: "payments-report-web-alb-de8d4e8f79d144d4.elb.localhost.floci.io"
+  loadBalancerDns: "payments-report-web-alb-bc3f99ab5b5645db.elb.localhost.floci.io"
   dnsName: ""
   location: "bangkok-dc"
   region: "us-east-1"
