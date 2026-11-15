@@ -7,9 +7,9 @@ metadata:
     team: payments
     managed-by: kratix
 data:
-  instanceId: "i-7bbe53ede483d548e"
+  instanceId: "i-41b1bfb5836dc8649"
   instanceType: "t3.micro"
-  publicIp: "10.242.0.11"
+  publicIp: "10.241.0.11"
   loadBalancerType: "none"
   loadBalancerDns: ""
   dnsName: ""
