@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ec2-platform-checking-web
+  namespace: default
+  labels:
+    team: platform
+    managed-by: kratix
+data:
+  instanceId: "i-3f76c79bfa5e43b49"
+  instanceType: "t3.micro"
+  publicIp: "172.31.32.20"
+  loadBalancerType: "alb"
+  loadBalancerDns: "platform-checking-web-alb-7a7c1c1cc9924dbb.elb.localhost.floci.io"
+  dnsName: ""
+  location: "bangkok-dc"
+  region: "us-east-1"
